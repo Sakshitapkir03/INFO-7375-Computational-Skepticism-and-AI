@@ -6,6 +6,8 @@
 {
 "id": "person_001",
 "type": "person",
+"source": "resume",
+"verified": true,
 "name": "Sakshi Tapkir",
 "location": "Boston, MA",
 "open_to_relocate": true,
@@ -18,11 +20,15 @@
 {
 "id": "summary_001",
 "type": "summary",
-"text": "Software engineer with 1.5 years of experience building REST APIs, full-stack web applications, data engineering workflows, and LLM/RAG systems."
+"source": "resume",
+"verified": true,
+"text": "Software engineer with experience building REST APIs, full-stack web applications, data engineering workflows, and LLM/RAG systems."
 },
 {
 "id": "degree_001",
 "type": "degree",
+"source": "resume",
+"verified": true,
 "institution": "Northeastern University",
 "location": "Boston, MA",
 "degree": "Master of Science",
@@ -34,6 +40,8 @@
 {
 "id": "degree_002",
 "type": "degree",
+"source": "resume",
+"verified": true,
 "institution": "Savitribai Phule Pune University",
 "location": "Pune, MH, India",
 "degree": "Bachelor",
@@ -45,6 +53,8 @@
 {
 "id": "job_001",
 "type": "job",
+"source": "resume",
+"verified": true,
 "organization": "Humanitarians AI",
 "location": "Boston, MA",
 "title": "Data Engineering Volunteer",
@@ -73,6 +83,8 @@
 {
 "id": "job_002",
 "type": "job",
+"source": "resume",
+"verified": true,
 "organization": "MR SON Equipments Pvt Ltd",
 "location": "Pune, India",
 "title": "Software Development Engineer",
@@ -103,6 +115,8 @@
 {
 "id": "project_001",
 "type": "project",
+"source": "resume",
+"verified": true,
 "name": "Eventopia",
 "category": "Full-Stack Event Platform",
 "repository": "GitHub",
@@ -128,6 +142,8 @@
 {
 "id": "project_002",
 "type": "project",
+"source": "resume",
+"verified": true,
 "name": "Document Parser",
 "category": "RAG Document Q&A System",
 "repository": "GitHub",
@@ -154,6 +170,8 @@
 {
 "id": "certification_001",
 "type": "certification",
+"source": "resume",
+"verified": true,
 "name": "Advanced Certification in Data Science and AI",
 "issuer": "IIT Madras",
 "location": "India",
