@@ -1,0 +1,429 @@
+{
+"attested": true,
+"attested_date": "2026-06-24",
+"attestation_note": "Three extraction errors corrected: normalized inconsistent date formats, removed unsupported inferred leadership language, and kept STEM eligibility out of the resume record until separately verified.",
+"records": [
+{
+"id": "person_001",
+"type": "person",
+"name": "Sakshi Tapkir",
+"location": "Boston, MA",
+"open_to_relocate": true,
+"email": "sakshitapkir03@gmail.com",
+"phone": "+1 (857) 421-7553",
+"linkedin": "linkedin.com/in/sakshitapkir13",
+"github": "GitHub",
+"portfolio": "Portfolio"
+},
+{
+"id": "summary_001",
+"type": "summary",
+"text": "Software engineer with 1.5 years of experience building REST APIs, full-stack web applications, data engineering workflows, and LLM/RAG systems."
+},
+{
+"id": "degree_001",
+"type": "degree",
+"institution": "Northeastern University",
+"location": "Boston, MA",
+"degree": "Master of Science",
+"field": "Computer Software Engineering",
+"start_date": "2024-08",
+"end_date": "2026-08",
+"status": "in_progress"
+},
+{
+"id": "degree_002",
+"type": "degree",
+"institution": "Savitribai Phule Pune University",
+"location": "Pune, MH, India",
+"degree": "Bachelor",
+"field": "Computer Science",
+"start_date": "2020-08",
+"end_date": "2023-06",
+"status": "completed"
+},
+{
+"id": "job_001",
+"type": "job",
+"organization": "Humanitarians AI",
+"location": "Boston, MA",
+"title": "Data Engineering Volunteer",
+"start_date": "2026-02",
+"end_date": "2026-04",
+"employment_type": "volunteer",
+"technologies": [
+"React",
+"Node.js",
+"Express",
+"Supabase",
+"JWT",
+"Docker",
+"GitHub Actions",
+"REST APIs",
+"LLMs"
+],
+"verified_details": [
+"Built a multi-model AI platform where 100+ faculty could query and compare six AI assistants running on different LLMs side by side.",
+"Engineered parallel LLM execution with Node.js and Promise.all, reducing panel-mode response time from 18 seconds to 3 seconds.",
+"Created a RESTful Express routing layer with JWT authentication to normalize inconsistent responses from six assistant APIs into one predictable schema.",
+"Containerized the application with Docker and automated CI/CD through GitHub Actions.",
+"Supported Supabase row-level security and structured logging for production release workflows."
+]
+},
+{
+"id": "job_002",
+"type": "job",
+"organization": "MR SON Equipments Pvt Ltd",
+"location": "Pune, India",
+"title": "Software Development Engineer",
+"start_date": "2023-07",
+"end_date": "2024-06",
+"employment_type": "full_time",
+"technologies": [
+"Java",
+"Spring Boot",
+"MySQL",
+"Hibernate ORM",
+"Redis",
+"Spring Security",
+"JWT",
+"RBAC",
+"JUnit",
+"Git"
+],
+"verified_details": [
+"Designed an inventory REST API with Spring Boot and MySQL for real-time stock tracking, barcode lookup, and automated low-stock alerts.",
+"Developed a customer order-tracking module with Spring Boot, Hibernate ORM, and Redis.",
+"Reduced order-retrieval time by 40 percent on a dataset of 500+ orders.",
+"Secured 10+ ERP microservices with Spring Security, JWT authentication, role-based access control, request validation, and per-endpoint rate limiting.",
+"Automated unit and integration tests for critical service paths.",
+"Maintained technical documentation in an Agile/Scrum process using Git."
+]
+},
+{
+"id": "project_001",
+"type": "project",
+"name": "Eventopia",
+"category": "Full-Stack Event Platform",
+"repository": "GitHub",
+"technologies": [
+"Next.js",
+"React.js",
+"Node.js",
+"MongoDB",
+"Express.js",
+"Stripe",
+"Clerk",
+"REST APIs",
+"k6"
+],
+"verified_details": [
+"Built a full-stack event marketplace with ticket checkout and organizer event management.",
+"Implemented an idempotent Stripe payment flow using webhook verification and unique transaction IDs to prevent duplicate charges.",
+"Optimized event-listing path by parallelizing queries, removing redundant aggregation, adding caching, and creating a covering index.",
+"Reduced p95 latency from 3.7 seconds to 1.2 seconds.",
+"Increased throughput to nearly 99 requests per second at 200 concurrent users under k6 load testing."
+]
+},
+{
+"id": "project_002",
+"type": "project",
+"name": "Document Parser",
+"category": "RAG Document Q&A System",
+"repository": "GitHub",
+"technologies": [
+"Python",
+"FastAPI",
+"Pydantic",
+"LangChain",
+"FAISS",
+"NumPy",
+"Ollama",
+"SQLite",
+"Supabase",
+"Pytest",
+"CI"
+],
+"verified_details": [
+"Engineered a RAG pipeline for document-grounded Q&A over PDF and TXT files.",
+"Implemented hybrid semantic and keyword retrieval, reranking, and a confidence gate for low-evidence queries.",
+"Built an automated LLM-as-judge evaluation harness with 74 pytest tests in CI.",
+"Reduced hallucinated answers from 39 percent to 33 percent against a no-retrieval baseline across 18 cases."
+]
+},
+{
+"id": "certification_001",
+"type": "certification",
+"name": "Advanced Certification in Data Science and AI",
+"issuer": "IIT Madras",
+"location": "India",
+"start_date": "2023-02",
+"end_date": "2024-02",
+"status": "completed"
+},
+{
+"id": "skill_001",
+"type": "skill",
+"name": "Java",
+"category": "Languages"
+},
+{
+"id": "skill_002",
+"type": "skill",
+"name": "Python",
+"category": "Languages"
+},
+{
+"id": "skill_003",
+"type": "skill",
+"name": "JavaScript",
+"category": "Languages"
+},
+{
+"id": "skill_004",
+"type": "skill",
+"name": "C++",
+"category": "Languages"
+},
+{
+"id": "skill_005",
+"type": "skill",
+"name": "TypeScript",
+"category": "Languages"
+},
+{
+"id": "skill_006",
+"type": "skill",
+"name": "SQL",
+"category": "Languages"
+},
+{
+"id": "skill_007",
+"type": "skill",
+"name": "React.js",
+"category": "Frontend"
+},
+{
+"id": "skill_008",
+"type": "skill",
+"name": "Next.js",
+"category": "Frontend"
+},
+{
+"id": "skill_009",
+"type": "skill",
+"name": "Angular",
+"category": "Frontend"
+},
+{
+"id": "skill_010",
+"type": "skill",
+"name": "HTML",
+"category": "Frontend"
+},
+{
+"id": "skill_011",
+"type": "skill",
+"name": "CSS",
+"category": "Frontend"
+},
+{
+"id": "skill_012",
+"type": "skill",
+"name": "Spring Boot",
+"category": "Backend"
+},
+{
+"id": "skill_013",
+"type": "skill",
+"name": "Node.js",
+"category": "Backend"
+},
+{
+"id": "skill_014",
+"type": "skill",
+"name": "Express.js",
+"category": "Backend"
+},
+{
+"id": "skill_015",
+"type": "skill",
+"name": "Hibernate ORM",
+"category": "Backend"
+},
+{
+"id": "skill_016",
+"type": "skill",
+"name": "REST APIs",
+"category": "Backend"
+},
+{
+"id": "skill_017",
+"type": "skill",
+"name": "OAuth",
+"category": "Backend"
+},
+{
+"id": "skill_018",
+"type": "skill",
+"name": "Kafka",
+"category": "Backend"
+},
+{
+"id": "skill_019",
+"type": "skill",
+"name": "GraphQL",
+"category": "Backend"
+},
+{
+"id": "skill_020",
+"type": "skill",
+"name": "WebSockets",
+"category": "Backend"
+},
+{
+"id": "skill_021",
+"type": "skill",
+"name": "MySQL",
+"category": "Databases"
+},
+{
+"id": "skill_022",
+"type": "skill",
+"name": "PostgreSQL",
+"category": "Databases"
+},
+{
+"id": "skill_023",
+"type": "skill",
+"name": "MongoDB",
+"category": "Databases"
+},
+{
+"id": "skill_024",
+"type": "skill",
+"name": "Supabase",
+"category": "Databases"
+},
+{
+"id": "skill_025",
+"type": "skill",
+"name": "Redis",
+"category": "Databases"
+},
+{
+"id": "skill_026",
+"type": "skill",
+"name": "AWS S3",
+"category": "Cloud and DevOps"
+},
+{
+"id": "skill_027",
+"type": "skill",
+"name": "AWS EC2",
+"category": "Cloud and DevOps"
+},
+{
+"id": "skill_028",
+"type": "skill",
+"name": "Azure",
+"category": "Cloud and DevOps"
+},
+{
+"id": "skill_029",
+"type": "skill",
+"name": "Docker",
+"category": "Cloud and DevOps"
+},
+{
+"id": "skill_030",
+"type": "skill",
+"name": "Kubernetes",
+"category": "Cloud and DevOps"
+},
+{
+"id": "skill_031",
+"type": "skill",
+"name": "GitHub Actions",
+"category": "Cloud and DevOps"
+},
+{
+"id": "skill_032",
+"type": "skill",
+"name": "CI/CD",
+"category": "Cloud and DevOps"
+},
+{
+"id": "skill_033",
+"type": "skill",
+"name": "Git",
+"category": "Cloud and DevOps"
+},
+{
+"id": "skill_034",
+"type": "skill",
+"name": "Jira",
+"category": "Cloud and DevOps"
+},
+{
+"id": "skill_035",
+"type": "skill",
+"name": "PyTorch",
+"category": "AI and ML"
+},
+{
+"id": "skill_036",
+"type": "skill",
+"name": "LangChain",
+"category": "AI and ML"
+},
+{
+"id": "skill_037",
+"type": "skill",
+"name": "FAISS",
+"category": "AI and ML"
+},
+{
+"id": "skill_038",
+"type": "skill",
+"name": "RAG",
+"category": "AI and ML"
+},
+{
+"id": "skill_039",
+"type": "skill",
+"name": "LLM",
+"category": "AI and ML"
+},
+{
+"id": "skill_040",
+"type": "skill",
+"name": "Supabase Vector Store",
+"category": "AI and ML"
+},
+{
+"id": "skill_041",
+"type": "skill",
+"name": "JUnit",
+"category": "Testing"
+},
+{
+"id": "skill_042",
+"type": "skill",
+"name": "Unit Testing",
+"category": "Testing"
+},
+{
+"id": "skill_043",
+"type": "skill",
+"name": "Integration Testing",
+"category": "Testing"
+},
+{
+"id": "skill_044",
+"type": "skill",
+"name": "Pytest",
+"category": "Testing"
+}
+]
+}

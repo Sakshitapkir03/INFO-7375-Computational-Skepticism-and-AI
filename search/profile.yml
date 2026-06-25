@@ -1,0 +1,77 @@
+target_role:
+  primary: "Entry-level Software Engineer focused on backend, full-stack, and AI-enabled application development"
+  alternate_titles:
+    - "Software Engineer"
+    - "Backend Engineer"
+    - "Full-Stack Engineer"
+    - "AI Engineer"
+    - "Application Engineer"
+  target_level: "Entry-level / New Grad"
+  target_summary: "Roles involving REST APIs, backend services, full-stack product development, data workflows, cloud deployment, testing, and applied AI/RAG systems."
+
+visa_constraints:
+  visa_status: "F-1 OPT"
+  authorization_end_date: "2027-02-20"
+  unemployment_days_used: null
+  unemployment_days_note: "To be verified against SEVP Portal and DSO records before using as a scoring gate."
+  stem_eligible: "uncertain"
+  stem_eligibility_note: "Do not treat STEM eligibility as confirmed until verified with DSO."
+  buffer_target_days_below_90_day_ceiling: 80
+
+geography:
+  current_location: "Boston, MA"
+  open_to_relocate: true
+  preferred_metros:
+    - "Boston, MA"
+    - "New York, NY"
+    - "New Jersey"
+    - "Seattle, WA"
+    - "San Francisco Bay Area, CA"
+    - "Austin, TX"
+    - "Remote - United States"
+  constraints:
+    - "Must be legally compatible with F-1 OPT work authorization."
+    - "Remote roles must support U.S.-based employment authorization requirements."
+
+industry_preferences:
+  preferred_sectors:
+    - "Software"
+    - "AI and machine learning applications"
+    - "Cloud infrastructure"
+    - "FinTech"
+    - "Healthcare technology"
+    - "Developer tools"
+    - "Data platforms"
+  company_stage_preferences:
+    - "Growth-stage startup"
+    - "Mid-size technology company"
+    - "Large technology company"
+    - "Enterprise software company"
+  hard_exclusions:
+    - "Roles requiring U.S. citizenship only"
+    - "Roles requiring active security clearance"
+
+sponsorship_requirement:
+  requires_future_employer_sponsorship: true
+  sponsorship_as_gate: true
+  note: "Because future H-1B or longer-term sponsorship may be needed, employers with no sponsorship history should be treated as skip or high-risk unless there is clear evidence otherwise."
+
+search_preferences:
+  role_keywords:
+    - "Java"
+    - "Spring Boot"
+    - "Python"
+    - "Node.js"
+    - "React"
+    - "REST APIs"
+    - "SQL"
+    - "Docker"
+    - "CI/CD"
+    - "RAG"
+    - "LLM"
+  avoid_keywords:
+    - "U.S. citizenship required"
+    - "security clearance required"
+    - "unpaid"
+    - "commission only"
+  minimum_fit_standard: "Apply only when the role matches backend, full-stack, data engineering, or AI application evidence from resume.json and does not conflict with visa constraints."
